@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.div1 {
+    background-image: url('../img/hero.jpg');
+    height: 750px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: white solid;
+    padding: 50px;
+}
+
+.nav {
+    display: inline;
+    border: solid;
+
+}
+
+.nav li a {
+
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+.nav li {
+    list-style: none;
+    display: inline;
+    padding: 50px;
+}
+
+.login {
+    display: inline;
+    margin-left: 650px;
+
+}
+
+.p1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 250px;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.p2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.dl {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.download {
+    font-family: "Roboto", sans-serif;
+    padding: 10px 20px;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    border: solid;
+    border-radius: 30px;
+    border-color: rgb(233, 67, 122);
+    background-color: rgb(233, 67, 122);
+}
+
+.learn {
+    margin-left: 50px;
+    color: rgb(233, 67, 122);
+    border: solid;
+    border-radius: 30px;
+    /* border-color: rgb(233, 67, 122); */
+    padding: 10px 20px;
+    font-size: larger;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.box {
+    width: 31%;
+    float: left;
+    /* border: 1px solid red; */
+    padding: 15px 60px;
+    margin: 20px;
+}
+
+.container {
+    padding: 130px 40px;
+    /* border: 2px solid red; */
+    overflow: auto;
+}
+.box i{
+    color: rgb(247, 136, 154);
+    font-size: 50px;
+    float: left;
+    padding-bottom: 200px; 
+    padding-right: 50px;
+    /* border: 2px solid red;    */
+    
+}
+.text{
+    
+    font-size: 20px;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.sec2{
+    background: rgb(239, 242, 248);
+    overflow: auto;
+}
+.sec2 img{
+    float: left;
+    /* border:2px solid rgb(255, 95, 95); */
+    padding-top:100px ;
+
+}
+.sec2o1{
+  ÷border:2px solid rgb(255, 95, 95);
+  margin: auto;
+  padding-top:100px ;
+  padding-left: 1200px;
+  padding-right: 120px;
+  width: 100%;
+
+}
+.sec2 h1{
+    font-size: 35px;
+}
+
+hr{
+    color: grey;
+    font-size: 20px;
+}
+.pic i{
+    color: rgb(247, 136, 154);
+    font-size: 50px;
+    float: left;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    
+}

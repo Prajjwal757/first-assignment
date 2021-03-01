@@ -5,44 +5,60 @@
     box-sizing: border-box;
 }
 
-.div1 {
+
+header {
     background-image: url('../img/hero.jpg');
     height: 750px;
     margin: 0;
     padding: 0;
-}
-
-header {
-    border: white solid;
     padding: 50px;
+    
+    overflow: auto;
 }
 
+.head_img{
+    float: left;
+    margin-right: 50px;
+}
 .nav {
-    display: inline;
-    border: solid;
-
+    display: inline-block;
+    /* border: solid; */
 }
 
-.nav li a {
+.login{
+    display: inline;
+    /* border: solid; */
+    /* margin-left: 580px; */
+    float: right;
+}
+
+.login a {
 
     color: white;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
-
-
 }
 
-.nav li {
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+header li{
     list-style: none;
-    display: inline;
-    padding: 50px;
+    display: inline-block;
+    margin: 0 30px;
 }
 
-.login {
-    display: inline;
-    margin-left: 650px;
-
+.log_si
+{
+    border-radius: 30px;
+    border: 2px solid white;
+    padding:10px 20px;
 }
+
+
+
+
+
 
 .p1 {
     text-align: center;
@@ -91,14 +107,14 @@ header {
 }
 
 .box {
-    width: 31%;
+    width: 30%;
     float: left;
     /* border: 1px solid red; */
     padding: 15px 60px;
     margin: 20px;
 }
 
-.container {
+.sec1 {
     padding: 130px 40px;
     /* border: 2px solid red; */
     overflow: auto;
@@ -107,7 +123,7 @@ header {
     color: rgb(247, 136, 154);
     font-size: 50px;
     float: left;
-    padding-bottom: 200px; 
+    padding-bottom: 280px; 
     padding-right: 50px;
     /* border: 2px solid red;    */
     
@@ -120,6 +136,14 @@ header {
     font-weight: bolder;
     font-size: 25px;
 }
+
+
+
+
+
+
+
+
 .sec2{
     background: rgb(239, 242, 248);
     overflow: auto;
@@ -139,7 +163,7 @@ header {
   width: 100%;
 
 }
-.sec2 h1{
+.sec2 h3{
     font-size: 35px;
 }
 
@@ -154,4 +178,28 @@ hr{
     padding-bottom: 50px;
     padding-right: 20px;
     
+}
+
+
+
+.sec3 p{
+    /* border: 2px solid black; */
+    width: 40%;
+    margin: 40px 10px;
+}
+.para3{
+    display: inline-block;
+    width: 50%;
+    margin-left: 20px;
+}
+.sec3 h3{
+    margin: 40px 10px;
+}
+.img3{
+    float: right;
+    margin-right: -200px;
+    margin-top: 50px;
+}
+.sec3{
+    overflow: auto;
 }
